@@ -123,13 +123,11 @@ span{
   .bdy1{
     background-image: url("images/bdy-1.png");
   }
-  .yt-video{
-    width: 55%;
-    height: 100%;
-  }
   .ty-box{
-    width: 100vw;
-    height: 65vh;
+    /* width: 100vw; */
+  }
+  .yt-video{
+    /* width: 40%; */
   }
   .yt-text p{
     font-size: 18px;
@@ -183,11 +181,15 @@ span{
       grid-template-columns: 0 1fr 0;
     }
   }
+  #yt-box{
+    width: 50%;
+    justify-self: center;
+  }
   @media only screen and (max-width: 1000px) {
-    .yt-video{
-      width: 95%;
+    #yt-box{
+      width: 100%;
       justify-self: center;
-      height: ;
+      margin: 5px;
     }
   }
   #disc{
